@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Doe – Artistic CV</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: radial-gradient(circle at top left, #1f1f2e, #261b33, #0e0e17);
+        color: #f2f2f2;
+        overflow-x: hidden;
+    }
+
+    .wrapper {
+        max-width: 900px;
+        margin: 60px auto;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 25px;
+        box-shadow: 0 0 60px rgba(0,0,0,0.4);
+        padding: 40px;
+        backdrop-filter: blur(12px);
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .header img {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        border: 4px solid rgba(255,255,255,0.4);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        object-fit: cover;
+    }
+
+    h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 3rem;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+        border-left: 6px solid #b388ff;
+        padding-left: 15px;
+        margin-top: 40px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    p, li {
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+
+    .hobby-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .hobby-card {
+        background: rgba(255,255,255,0.08);
+        padding: 20px;
+        border-radius: 15px;
+        text-align: center;
+        border: 1px solid rgba(255,255,255,0.1);
+        transform: translateY(0);
+        transition: 0.3s ease;
+    }
+
+    .hobby-card:hover {
+        transform: translateY(-8px);
+        background: rgba(255,255,255,0.12);
+    }
+
+    footer {
+        text-align: center;
+        opacity: 0.7;
+        margin-top: 50px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="header">
+        <img src="https://raw.githubusercontent.com/MiaWalkerSaunders/FirstRepo/main/forest.jpeg" alt="John Doe">
+        <h1>John Doe</h1>
+        <p style="opacity: 0.8;">An artistic presentation of a working professional</p>
+    </div>
+
+    <section>
+        <h2>Experience</h2>
+        <p><strong>Forklift Driver</strong><br>
+        Reliable, safety-focused, and efficient operator with hands-on experience handling warehouse logistics, loading and unloading materials, and maintaining a smooth workflow in high-demand environments.</p>
+    </section>
+
+    <section>
+        <h2>Hobbies & Interests</h2>
+        <div class="hobby-grid">
+            <div class="hobby-card">🌲 Forest Photography</div>
+            <div class="hobby-card">💡 DIY Home Projects</div>
+            <div class="hobby-card">🚴 Mountain Biking</div>
+            <div class="hobby-card">🎧 Synthwave Music</div>
+            <div class="hobby-card">🔥 Outdoor Survival Skills</div>
+            <div class="hobby-card">🌌 Astronomy & Stargazing</div>
+            <div class="hobby-card">📦 Creative Upcycling</div>
+            <div class="hobby-card">☕ Collecting Artisan Coffee</div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    © 2025 John Doe — Artistic CV Design
+</footer>
+
+</body>
+</html>
